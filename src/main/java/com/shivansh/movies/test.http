@@ -1,0 +1,7 @@
+POST http://localhost:8080/api/v1/reviews
+Content-Type: application/json
+
+{
+    "reviewBody" : "I really liked the movie",
+    "imdbId" : "tt3915174"
+}
