@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service;
 public class MovieService {
     @Autowired
     private MovieRepository movieRepository;
-    
-    public List<Movie> allMovies(){
+
+    public List<Movie> allMovies() {
         return movieRepository.findAll();
     }
 
